@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="J-Camera"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="#b55731b6"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/btn_take_photo"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text=" 相机"
+            android:textAllCaps="false"
+            android:onClick="functionChoose"/>
+
+        <Button
+            android:id="@+id/btn_beauty"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="美图"
+            android:textAllCaps="false"
+            android:onClick="functionChoose"/>
+
+        <Button
+            android:id="@+id/btn_color_matrix"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="颜色矩阵"
+            android:textAllCaps="false"
+            android:onClick="functionChoose"/>
+
+    </LinearLayout>
+</RelativeLayout>
